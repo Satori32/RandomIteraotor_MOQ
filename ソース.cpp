@@ -51,8 +51,8 @@ int main() {
 	RandomNumberIterator<std::mt19937> X;
 	
 	for (std::uintmax_t i = 0; i < 16; i ++){
-		std::cout << *X << std::endl;
-		X++;
+		std::cout << *X++ << std::endl;
+		//X++;
 	}
 
 	return 0;
